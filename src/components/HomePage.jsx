@@ -20,7 +20,7 @@ function HomePage() {
             de toda la página. Esto hace que las aplicaciones construidas con
             React sean más rápidas y fáciles de mantener.
           </p>
-          <img src="src\assets\react-logo.png" alt="react" className="w-1/5" />
+          <img src="https://github.com/jmontes33/apuntes-react/blob/main/src/assets/react-logo.png?raw=true" alt="react" className="w-1/5" />
         </div>
       </div>
       <SearchBar />

@@ -11,7 +11,7 @@ function GithubButton() {
         target="_blank"
       >
         GitHub
-        <img src="src\assets\github.png" alt="github" className="h-5" />
+        <img src="https://github.com/jmontes33/apuntes-react/blob/main/src/assets/github.png?raw=true" alt="github" className="h-5" />
       </NavLink>
     </div>
   );

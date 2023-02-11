@@ -7,91 +7,91 @@ const posts = [
     href: "/introduccion",
     description:
       "Para poder utilizar React necesitaremos tener instalado node.js en nuestro equipo y también un IDE, yo personalmente utilizo VS Code.",
-    imageUrl: "/src/assets/react-img-std.png",
+    imageUrl: "https://github.com/jmontes33/apuntes-react/blob/main/src/assets/react-img-std.png?raw=true",
   },
   {
     title: "Create-react-app",
     href: "/create-react-app",
     description:
       "Para crear un proyecto de react lo primero que debes hacer es crear una carpeta donde lo vayas a guardar (yo la llamaré mi primera app con react), después abre Visual Studio Code y accede a esta carpeta.",
-    imageUrl: "/src/assets/react-img-std.png",
+    imageUrl: "https://github.com/jmontes33/apuntes-react/blob/main/src/assets/react-img-std.png?raw=true",
   },
   {
     title: "Estructura del proyecto",
     href: "/estructura-del-proyecto",
     description:
       "La estructura del proyecto es la organización de los componentes, archivos y directorios que componen la aplicación. La estructura adecuada de un proyecto depende en gran medida del tamaño y la complejidad de la aplicación.",
-    imageUrl: "/src/assets/react-img-std.png",
+    imageUrl: "https://github.com/jmontes33/apuntes-react/blob/main/src/assets/react-img-std.png?raw=true",
   },
   {
     title: "Hola Mundo en React",
     href: "/hola-mundo",
     description:
       "La imagen de la izquierda es lo que ha generado el comando que previamente hemos introducido.",
-    imageUrl: "/src/assets/react-img-std.png",
+    imageUrl: "https://github.com/jmontes33/apuntes-react/blob/main/src/assets/react-img-std.png?raw=true",
   },
   {
     title: "Componentes en React",
     href: "/componentes",
     description:
       "La imagen de la izquierda es lo que ha generado el comando que previamente hemos introducido.",
-    imageUrl: "/src/assets/react-img-std.png",
+    imageUrl: "https://github.com/jmontes33/apuntes-react/blob/main/src/assets/react-img-std.png?raw=true",
   },
   {
     title: "Tu primer componente",
     href: "/tu-primer-componente",
     description:
       "La imagen de la izquierda es lo que ha generado el comando que previamente hemos introducido.",
-    imageUrl: "/src/assets/react-img-std.png",
+    imageUrl: "https://github.com/jmontes33/apuntes-react/blob/main/src/assets/react-img-std.png?raw=true",
   },
   {
     title: "JSX",
     href: "/jsx",
     description:
       "La imagen de la izquierda es lo que ha generado el comando que previamente hemos introducido.",
-    imageUrl: "/src/assets/react-img-std.png",
+    imageUrl: "https://github.com/jmontes33/apuntes-react/blob/main/src/assets/react-img-std.png?raw=true",
   },
   {
     title: "React props",
     href: "/react-props",
     description:
       "La imagen de la izquierda es lo que ha generado el comando que previamente hemos introducido.",
-    imageUrl: "/src/assets/react-img-std.png",
+    imageUrl: "https://github.com/jmontes33/apuntes-react/blob/main/src/assets/react-img-std.png?raw=true",
   },
   {
     title: "Prop-Types",
     href: "/props-types",
     description:
       "La imagen de la izquierda es lo que ha generado el comando que previamente hemos introducido.",
-    imageUrl: "/src/assets/react-img-std.png",
+    imageUrl: "https://github.com/jmontes33/apuntes-react/blob/main/src/assets/react-img-std.png?raw=true",
   },
   {
     title: "Estilos en React",
     href: "/estilos-react",
     description:
       "La imagen de la izquierda es lo que ha generado el comando que previamente hemos introducido.",
-    imageUrl: "/src/assets/react-img-std.png",
+    imageUrl: "https://github.com/jmontes33/apuntes-react/blob/main/src/assets/react-img-std.png?raw=true",
   },
   {
     title: "Event Handlers",
     href: "/event-handlers",
     description:
       "La imagen de la izquierda es lo que ha generado el comando que previamente hemos introducido.",
-    imageUrl: "/src/assets/react-img-std.png",
+    imageUrl: "https://github.com/jmontes33/apuntes-react/blob/main/src/assets/react-img-std.png?raw=true",
   },
   {
     title: "Arrays en React",
     href: "/arrays-react",
     description:
       "La imagen de la izquierda es lo que ha generado el comando que previamente hemos introducido.",
-    imageUrl: "/src/assets/react-img-std.png",
+    imageUrl: "https://github.com/jmontes33/apuntes-react/blob/main/src/assets/react-img-std.png?raw=true",
   },
   {
     title: "Hooks de React",
     href: "/hooks",
     description:
       "La imagen de la izquierda es lo que ha generado el comando que previamente hemos introducido.",
-    imageUrl: "/src/assets/react-img-std.png",
+    imageUrl: "https://github.com/jmontes33/apuntes-react/blob/main/src/assets/react-img-std.png?raw=true",
   },
 ];
 

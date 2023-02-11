@@ -24,7 +24,7 @@ function Section3() {
             aplicación, como imágenes, archivos de estilo y el archivo
             "index.html" que es la página principal de la aplicación.
           </p>
-          <img src="src\assets\Estructura Rect.png" alt="react-structure" />
+          <img src="https://github.com/jmontes33/apuntes-react/blob/main/src/assets/Estructura%20Rect.png?raw=true" alt="react-structure" />
         </div>
         <p className="mb-3">
           Lo de debajo es el index.html que hay dentro de la carpeta public, su
@@ -39,7 +39,7 @@ function Section3() {
           dependencias necesarias para ejecutar la aplicación...
         </p>
         <div className="flex justify-center my-5">
-          <img src="src\assets\html estructura.png" alt="html-structure" />
+          <img src="https://github.com/jmontes33/apuntes-react/blob/main/src/assets/html%20estructura.png?raw=true" alt="html-structure" />
         </div>
       </div>
       <div className="flex justify-between mt-10">
