@@ -2,9 +2,9 @@ import React from "react";
 import { useState } from "react";
 import Articles from "./Articles";
 
-function SearchBar(props) {
+function SearchBar() {
   const [searchTerm, setSearchTerm] = useState("");
-  const [datos, setDatos] = useState([]);
+
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -13,9 +13,7 @@ function SearchBar(props) {
   
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <h1 className="text-center text-6xl font-bold leading-tight tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 mb-10">
-        Apuntes React
-      </h1>
+
       <form onSubmit={handleSubmit}>
         <label
           htmlFor="default-search"
@@ -34,9 +32,9 @@ function SearchBar(props) {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
               ></path>
             </svg>
@@ -46,16 +44,10 @@ function SearchBar(props) {
             onChange={(e) => setSearchTerm(e.target.value.toLowerCase())}
             type="text"
             id="default-search"
-            class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="Que es lo que buscas?"
+            className="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-white dark:border-gray-600 dark:placeholder-gray-700 dark:placeholder:text-lg dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            placeholder="Qué es lo que buscas?"
             required
           />
-          <button
-            type="submit"
-            className="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-          >
-            Buscar
-          </button>
         </div>
       </form>
       <Articles input={searchTerm}/>
